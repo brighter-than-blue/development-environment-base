@@ -21,7 +21,7 @@ Vagrant.configure("2") do |config|
     trigger.name = "Start"
     trigger.info =
         "******************************************************\n" +
-        "* FinKit Development Environment                     *\n" +
+        "* BTB Development Environment                        *\n" +
         "*                                                    *\n" +
         "* WARNING!!! Do not login to development environment *\n" +
         "* before provisioning completes!!                    *\n" +
@@ -37,7 +37,7 @@ Vagrant.configure("2") do |config|
     trigger.name = "Finished"
     trigger.info =
         "******************************************************\n" +
-        "* FinKit Development Environment                     *\n" +
+        "* BTB Development Environment                        *\n" +
         "*                                                    *\n" +
         "* You can now login to the development environment   *\n" +
         "* The username and password are both 'vagrant'       *\n" +
